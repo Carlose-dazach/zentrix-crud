@@ -1,0 +1,101 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Consulta general",
+      "descripcion": "Valoración médica general",
+      "precio": 60000,
+      "disponible": "Sí"
+    },
+    {
+      "id": 2,
+      "nombre": "Consulta pediátrica",
+      "descripcion": "Atención médica para niños",
+      "precio": 80000,
+      "disponible": "Sí"
+    },
+    {
+      "id": 3,
+      "nombre": "Odontología básica",
+      "descripcion": "Limpieza y revisión dental",
+      "precio": 70000,
+      "disponible": "Sí"
+    },
+    {
+      "id": 4,
+      "nombre": "Examen de laboratorio",
+      "descripcion": "Hemograma completo",
+      "precio": 45000,
+      "disponible": "No"
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nombre": "María Gómez",
+      "documento": "1012345678",
+      "correo": "maria@correo.com",
+      "telefono": "3001112233"
+    },
+    {
+      "id": 2,
+      "nombre": "Juan Pérez",
+      "documento": "80123456",
+      "correo": "juan@correo.com",
+      "telefono": "3109998877"
+    },
+    {
+      "id": 3,
+      "nombre": "Laura Rojas",
+      "documento": "1023456789",
+      "correo": "laura@correo.com",
+      "telefono": "3205554433"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Dr. Andrés Castro",
+      "especialidad": "Medicina general",
+      "correo": "acastro@zentrix.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Dra. Paula Ramírez",
+      "especialidad": "Pediatría",
+      "correo": "pramirez@zentrix.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Dr. Felipe Mora",
+      "especialidad": "Odontología",
+      "correo": "fmora@zentrix.com"
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "paciente": "María Gómez",
+      "especialidad": "Medicina general",
+      "fecha": "2026-11-20",
+      "hora": "09:00",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 2,
+      "paciente": "Juan Pérez",
+      "especialidad": "Odontología",
+      "fecha": "2026-11-21",
+      "hora": "14:30",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 3,
+      "paciente": "Laura Rojas",
+      "especialidad": "Pediatría",
+      "fecha": "2026-11-18",
+      "hora": "10:15",
+      "estado": "Cancelada"
+    }
+  ]
+}
